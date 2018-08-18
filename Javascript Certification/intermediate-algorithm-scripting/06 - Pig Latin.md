@@ -7,7 +7,7 @@ of an English word, moves it to the end of the word and suffixes an "ay".
 If a word begins with a vowel you just add "way" to the end.
 Input strings are guaranteed to be English words in all lowercase.
 
-### My Solution (based on Beginner Solution by FreeCodeCamp Guide)
+### My Solution
 ```
 function translatePigLatin(str) {
   //1st: first letter a vowel
