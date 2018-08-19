@@ -22,8 +22,11 @@ function diffArray(arr1, arr2) {
 ```
 
 **Code Explanation**:
-First concatenate arrays from the input into another array `uniqueArr`, where the `.filter` method is applied to get an array with unique values (no repeated elements).
-Then loop throw elements of `uniqueArr`, and if they are not present on at least one of the input arrays, that element will be added to `newArr`.
+First concatenate arrays from the input into another array `uniqueArr`, 
+where the `.filter` method is applied to get an array with unique 
+values (no repeated elements).
+Then loop throw elements of `uniqueArr`, and if they are not present 
+on at least one of the input arrays, that element will be added to `newArr`.
 
 Following solutions can be found in [here](https://guide.freecodecamp.org/certifications/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/diff-two-arrays).
 
@@ -80,13 +83,10 @@ function diffArray(arr1, arr2) {
 None
 
 ### Discussion
-<!--My solution was worthy of the beginner level, using a `for` loop to be able to add
-each value to the final variable. Secondly, the first two levels solutions were
-not concerned about functional programming as I was, but that's ok.
+My solution was worthy of the beginner level, using a .indexOf throw a loop
+to be able to check for different elements between both input arrays.
 
-More importantly, what did I learned with the solutions provided by FreeCodeCamp
-guide? Didn't thought that I could have used the arithmetic progression summing
-formula as in the intermediate solution. While the advanced solutions took 
-advantage of the rest parameter (`...args`), find the minimum and maximum value
-and then loop to incremently add the values and voilá!
--->
+I absolutely love the advanced level's solution, only uses .filter, .concat 
+and .includes methods, and checks for each element of arr1 that is not 
+included in arr2, and then will concatenate all the elements o arr2 that are 
+not included in arr1.
